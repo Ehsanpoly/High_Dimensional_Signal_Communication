@@ -17,13 +17,16 @@ embedded systems engineers:
 1) Buffer Utilization Rate: Detect under/over-allocation.
 2) Memory Fragmentation Index: Identify wasted memory chunks.
 3) Garbage Collection Overhead: Track CPU cost of memory cleanup.
+   
 ✅ Adaptive Memory Management
 1) Implement feedback-based algorithms that adjust memory pool sizes based on historical data.
 2) Use priority-based allocation to give critical communication (BACnet, modbus, CANbus)messages guaranteed buffer space.
 3) Apply machine learning techniques to predict memory usage patterns across multiple applications.
+   
 ✅ Static vs. Dynamic Allocation:
 1) Static Allocation: Fixed buffers for communication protocol frames. Predictable but wasteful in variable data load scenarios.
-2) Dynamic Allocation: Buffers grow or shrink based on real-time data load, reducing memory overhead.
+2) Dynamic Allocation: Buffers grow or shrink based on real-time data load, reducing memory overhead
+
 ✅ Dynamic Buffer Management:
 1) Ring Buffers (Circular Queues) for real-time streaming data.
 2) Dynamic Heap Allocation for burst traffic.
